@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagentaIPTV", "MagentaIPTV\MagentaIPTV.csproj", "{349C7C4A-4FB9-45A5-AEAF-2DF2F00F0E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{349C7C4A-4FB9-45A5-AEAF-2DF2F00F0E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349C7C4A-4FB9-45A5-AEAF-2DF2F00F0E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349C7C4A-4FB9-45A5-AEAF-2DF2F00F0E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349C7C4A-4FB9-45A5-AEAF-2DF2F00F0E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1A696E5-11D8-426D-A759-C6F8EAD6ACB2}
+	EndGlobalSection
+EndGlobal

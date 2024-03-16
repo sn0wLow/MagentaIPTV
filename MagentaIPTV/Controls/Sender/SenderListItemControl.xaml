@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="MagentaIPTV.SenderListItemControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MagentaIPTV"
+             d:DataContext="{d:DesignInstance local:SenderListItemViewModel, IsDesignTimeCreatable=True}"
+             mc:Ignorable="d" 
+              d:DesignWidth="220" d:DesignHeight="160" Width="220" Height="160">
+
+    <UserControl.Resources>
+        <Style x:Key="ContentStyle" TargetType="{x:Type ContentControl}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ContentControl}">
+                        <Grid Margin="10" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+                            <Grid.Style>
+                                <Style TargetType="{x:Type Grid}">
+                                        <Style.Triggers>
+                                            <!-- Change text and border color as well as an "expanding Button Animation" -->
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Trigger.EnterActions>
+                                                    <BeginStoryboard>
+                                                    <Storyboard>
+                                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00:00">
+                                                                <!--<SplineThicknessKeyFrame KeyTime="00:00:00:00" Value="40" />-->
+                                                                <SplineThicknessKeyFrame KeyTime="00:00:00.20" Value="0" />
+                                                            </ThicknessAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </Trigger.EnterActions>
+                                                <Trigger.ExitActions>
+                                                    <!-- Change everything back to the initial state when we are no longer hovering over the Button -->
+                                                    <BeginStoryboard>
+                                                    <Storyboard>
+                                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00:00">
+                                                                <!--<SplineThicknessKeyFrame KeyTime="00:00:00:00" Value="30" />-->
+                                                                <SplineThicknessKeyFrame KeyTime="00:00:00.20" Value="10" />
+                                                            </ThicknessAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </BeginStoryboard>
+                                                </Trigger.ExitActions>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                            </Grid.Style>
+                            <Border BorderBrush="LightGray" Background="#3FFFFFFF" Cursor="Hand" BorderThickness="3" CornerRadius="15">
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="3*"/>
+                                        <RowDefinition Height="*"/> 
+                                    </Grid.RowDefinitions>
+
+
+                                    <Image d:Source="/Images/Sender/kabel1_doku.png" Source="{Binding LogoName, Converter={local:LogoNameToImageValueConverter}}" Margin="10"/>
+
+                                    <Viewbox Grid.Row="1">
+                                        <TextBlock d:Text="Kabel 1" Text="{Binding Name}" Foreground="LightGray" Margin="5"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Viewbox>
+                                </Grid>
+
+                            </Border>
+                        </Grid>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <ContentControl Style="{StaticResource ContentStyle}"/>
+
+
+</UserControl>

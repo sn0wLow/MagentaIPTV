@@ -1,0 +1,314 @@
+[
+  {
+    "Name": "Sat 1",
+    "Address": "rtp://87.141.215.251@232.0.10.146:10000",
+    "IsHD": false,
+    "LogoName": "sat1.png"
+  },
+  {
+    "Name": "SAT1 Gold",
+    "Address": "rtp://87.141.215.251@232.0.10.149:10000",
+    "IsHD": false,
+    "LogoName": "sat1gold.png"
+  },
+  {
+    "Name": "RTL",
+    "Address": "rtp://87.141.215.251@232.0.10.135:10000",
+    "IsHD": false,
+    "LogoName": "rtl.png"
+  },
+  {
+    "Name": "RTL2",
+    "Address": "rtp://87.141.215.251@232.0.10.140:10000",
+    "IsHD": false,
+    "LogoName": "rtl2.png"
+  },
+  {
+    "Name": "RTLplus",
+    "Address": "rtp://87.141.215.251@232.0.10.240:10000",
+    "IsHD": false,
+    "LogoName": "rtlplus.png"
+  },
+  {
+    "Name": "Pro7",
+    "Address": "rtp://87.141.215.251@232.0.10.120:10000",
+    "IsHD": false,
+    "LogoName": "pro7.png"
+  },
+  {
+    "Name": "Kabel1",
+    "Address": "rtp://87.141.215.251@232.0.10.82:10000",
+    "IsHD": false,
+    "LogoName": "kabel1.png"
+  },
+  {
+    "Name": "Kabel1 Doku",
+    "Address": "rtp://87.141.215.251@232.0.11.2:10000",
+    "IsHD": false,
+    "LogoName": "kabel1_doku.png"
+  },
+  {
+    "Name": "Vox",
+    "Address": "rtp://87.141.215.251@232.0.10.221:10000",
+    "IsHD": false,
+    "LogoName": "vox.png"
+  },
+  {
+    "Name": "Super RTL",
+    "Address": "rtp://87.141.215.251@232.0.10.201:10000",
+    "IsHD": false,
+    "LogoName": "superrtl.png"
+  },
+  {
+    "Name": "Toggo plus",
+    "Address": "rtp://87.141.215.251@232.0.11.7:10000",
+    "IsHD": false,
+    "LogoName": "toggo_plus.png"
+  },
+  {
+    "Name": "ntv",
+    "Address": "rtp://87.141.215.251@232.0.10.111:10000",
+    "IsHD": false,
+    "LogoName": "ntv.png"
+  },
+  {
+    "Name": "Sixx",
+    "Address": "rtp://87.141.215.251@232.0.10.157:10000",
+    "IsHD": false,
+    "LogoName": "sixx.png"
+  },
+  {
+    "Name": "Pro7maxx",
+    "Address": "rtp://87.141.215.251@232.0.10.122:10000",
+    "IsHD": false,
+    "LogoName": "pro7maxx.png"
+  },
+  {
+    "Name": "NITRO",
+    "Address": "rtp://87.141.215.251@232.0.10.143:10000",
+    "IsHD": false,
+    "LogoName": "nitro.png"
+  },
+  {
+    "Name": "arte",
+    "Address": "rtp://87.141.215.251@232.0.10.10:10000",
+    "IsHD": false,
+    "LogoName": "arte.png"
+  },
+  {
+    "Name": "Phoenix",
+    "Address": "rtp://87.141.215.251@232.0.10.116:10000",
+    "IsHD": false,
+    "LogoName": "phoenix.png"
+  },
+  {
+    "Name": "3sat",
+    "Address": "rtp://87.141.215.251@232.0.10.2:10000",
+    "IsHD": false,
+    "LogoName": "3sat.png"
+  },
+  {
+    "Name": "KiKA",
+    "Address": "rtp://87.141.215.251@232.0.10.85:10000",
+    "IsHD": false,
+    "LogoName": "kika.png"
+  },
+  {
+    "Name": "ARD one",
+    "Address": "rtp://87.141.215.251@232.0.10.49:10000",
+    "IsHD": false,
+    "LogoName": "ard_one.png"
+  },
+  {
+    "Name": "ARD-alpha",
+    "Address": "rtp://87.141.215.251@232.0.20.9:10000",
+    "IsHD": false,
+    "LogoName": "ard_alpha.png"
+  },
+  {
+    "Name": "ZDF Infokanal",
+    "Address": "rtp://87.141.215.251@232.0.10.237:10000",
+    "IsHD": false,
+    "LogoName": "zdf_info.png"
+  },
+  {
+    "Name": "ZDF neo",
+    "Address": "rtp://87.141.215.251@232.0.10.236:10000",
+    "IsHD": false,
+    "LogoName": "zdf_neo.png"
+  },
+  {
+    "Name": "BR Nord",
+    "Address": "rtp://87.141.215.251@232.0.10.25:10000",
+    "IsHD": false,
+    "LogoName": "br.png"
+  },
+  {
+    "Name": "hr-Fernsehen",
+    "Address": "rtp://87.141.215.251@232.0.10.71:10000",
+    "IsHD": false,
+    "LogoName": "hr.png"
+  },
+  {
+    "Name": "MDR Sachsen",
+    "Address": "rtp://87.141.215.251@232.0.10.93:10000",
+    "IsHD": false,
+    "LogoName": "mdr.png"
+  },
+  {
+    "Name": "NDR",
+    "Address": "rtp://87.141.215.251@232.0.10.104:10000",
+    "IsHD": false,
+    "LogoName": "ndr.png"
+  },
+  {
+    "Name": "Radio Bremen TV",
+    "Address": "rtp://87.141.215.251@232.0.10.125:10000",
+    "IsHD": false,
+    "LogoName": "radio_bremen.png"
+  },
+  {
+    "Name": "rbb Berlin",
+    "Address": "rtp://87.141.215.251@232.0.10.129:10000",
+    "IsHD": false,
+    "LogoName": "rbb.png"
+  },
+  {
+    "Name": "SR Fernsehen",
+    "Address": "rtp://87.141.215.251@232.0.10.200:10000",
+    "IsHD": false,
+    "LogoName": "sr.png"
+  },
+  {
+    "Name": "SWR Fernsehen BW",
+    "Address": "rtp://87.141.215.251@232.0.10.202:10000",
+    "IsHD": false,
+    "LogoName": "sr.png"
+  },
+  {
+    "Name": "WDR",
+    "Address": "rtp://87.141.215.251@232.0.10.222:10000",
+    "IsHD": false,
+    "LogoName": "wdr.png"
+  },
+  {
+    "Name": "Das Erste HD",
+    "Address": "rtp://87.141.215.251@232.0.20.35:10000",
+    "IsHD": true,
+    "LogoName": "das_erste_hd.png"
+  },
+  {
+    "Name": "ZDF HD",
+    "Address": "rtp://87.141.215.251@232.0.20.234:10000",
+    "IsHD": true,
+    "LogoName": "zdf_hd.png"
+  },
+  {
+    "Name": "ARTE HD",
+    "Address": "rtp://87.141.215.251@232.0.20.10:10000",
+    "IsHD": true,
+    "LogoName": "arte_hd.png"
+  },
+  {
+    "Name": "Phoenix HD",
+    "Address": "rtp://87.141.215.251@232.0.20.116:10000",
+    "IsHD": true,
+    "LogoName": "phoenix_hd.png"
+  },
+  {
+    "Name": "KiKA HD",
+    "Address": "rtp://87.141.215.251@232.0.20.85:10000",
+    "IsHD": true,
+    "LogoName": "kika_hd.png"
+  },
+  {
+    "Name": "3sat HD",
+    "Address": "rtp://87.141.215.251@232.0.20.2:10000",
+    "IsHD": true,
+    "LogoName": "3sat_hd.png"
+  },
+  {
+    "Name": "Tagesschau 24 HD",
+    "Address": "rtp://87.141.215.251@232.0.20.205:10000",
+    "IsHD": true,
+    "LogoName": "tagesschau24_hd.png"
+  },
+  {
+    "Name": "ARD One HD",
+    "Address": "rtp://87.141.215.251@232.0.20.49:10000",
+    "IsHD": true,
+    "LogoName": "ard_one_hd.png"
+  },
+  {
+    "Name": "ZDF neo HD",
+    "Address": "rtp://87.141.215.251@232.0.20.236:10000",
+    "IsHD": true,
+    "LogoName": "zdf_neo_hd.png"
+  },
+  {
+    "Name": "ZDF Infokanal HD",
+    "Address": "rtp://87.141.215.251@232.0.20.237:10000",
+    "IsHD": true,
+    "LogoName": "zdf_info_hd.png"
+  },
+  {
+    "Name": "Bayern Süd HD",
+    "Address": "rtp://87.141.215.251@232.0.20.26:10000",
+    "IsHD": true,
+    "LogoName": "br_hd.png"
+  },
+  {
+    "Name": "HR HD",
+    "Address": "rtp://87.141.215.251@232.0.20.71:10000",
+    "IsHD": true,
+    "LogoName": "hr_hd.png"
+  },
+  {
+    "Name": "MDR HD",
+    "Address": "rtp://87.141.215.251@232.0.20.93:10000",
+    "IsHD": true,
+    "LogoName": "mdr_hd.png"
+  },
+  {
+    "Name": "NDR HD",
+    "Address": "rtp://87.141.215.251@232.0.20.104:10000",
+    "IsHD": true,
+    "LogoName": "ndr_hd.png"
+  },
+  {
+    "Name": "RBB HD",
+    "Address": "rtp://87.141.215.251@232.0.20.129:10000",
+    "IsHD": true,
+    "LogoName": "rbb_hd.png"
+  },
+  {
+    "Name": "SWR BW HD",
+    "Address": "rtp://87.141.215.251@232.0.20.202:10000",
+    "IsHD": true,
+    "LogoName": "swr_hd.png"
+  },
+  {
+    "Name": "WDR HD",
+    "Address": "rtp://87.141.215.251@232.0.20.222:10000",
+    "IsHD": true,
+    "LogoName": "wdr_hd.png"
+  },
+  {
+    "Name": "SR HD",
+    "Address": "rtp://87.141.215.251@232.0.20.200:10000",
+    "IsHD": true,
+    "LogoName": "sr_hd.png"
+  },
+  {
+    "Name": "Das Erste",
+    "Address": "rtp://87.141.215.251@232.0.10.35:10000",
+    "IsHD": false,
+    "LogoName": "das_erste.png"
+  },
+  {
+    "Name": "ZDF",
+    "Address": "rtp://87.141.215.251@232.0.10.234:10000",
+    "IsHD": false,
+    "LogoName": "zdf.png"
+  }
+]
